@@ -2,28 +2,30 @@
 #include <stdlib.h>
 
 /* Header Liblary */
-#include "resources/menu.c"
+#include "resources/menu-utama.c"
+#include "persegi.c"
 
 int main()
 {
     int status=0;
     int pilihan;
+    
     while(!status)
     {
         /* Calling procedure "menu.c" */
         menu();
         
-        scanf("\n%d",&pilihan);
+        scanf("%d",&pilihan);
         getchar();
 
         switch(pilihan)
         {
             case 1:
-                printf("\n Berhasil \n");
+                persegi();
                 getchar();
                 break;
             case 2:
-                segitiga();
+                //segitiga();
                 getchar();
                 break;
             case 3:
