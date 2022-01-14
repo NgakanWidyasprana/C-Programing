@@ -4,6 +4,7 @@
 /* Header Liblary */
 #include "resources/menu-utama.c"
 #include "persegi.c"
+#include "segitiga.c"
 
 int main()
 {
@@ -25,7 +26,7 @@ int main()
                 getchar();
                 break;
             case 2:
-                //segitiga();
+                segitiga();
                 getchar();
                 break;
             case 3:
