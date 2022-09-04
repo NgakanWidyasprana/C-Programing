@@ -8,7 +8,7 @@
 
 int main()
 {
-    int status=0;
+    int status=1;
     int pilihan;
     
     while(!status)
